@@ -3,10 +3,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:gappy/features/auth/controllers/user_controller.dart';
-import 'package:gappy/features/auth/views/login_screen.dart';
 import 'package:gappy/features/feed/components/custom_container.dart';
 import 'package:gappy/features/feed/controllers/post_controller.dart';
-import 'package:gappy/features/feed/views/create_post_screen.dart';
 import 'package:gappy/features/shared/components/custom_text.dart';
 import 'package:gappy/features/shared/components/custom_text_field.dart';
 import 'package:gappy/features/shared/components/like_button.dart';
@@ -21,15 +19,6 @@ class HomePage extends ConsumerWidget {
     final TextEditingController text = TextEditingController();
 
     return Scaffold(
-      // appBar: AppBar(
-      //   backgroundColor: Colors.transparent,
-      //   title: CustomTextField(
-      //     onChanged: (value) {},
-      //     labelText: 'Email',
-      //     controller: text,
-      //     enabled: false,
-      //   ),
-      // ),
       body: SingleChildScrollView(
         child: Column(
           children: [

@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:gappy/features/auth/components/custom_divider.dart';
-import 'package:gappy/features/feed/views/home_screen.dart';
 import 'package:gappy/features/shared/colors/colors.dart';
 import 'package:gappy/features/shared/components/auth_button.dart';
 import 'package:gappy/features/shared/components/custom_button.dart';
 import 'package:gappy/features/shared/components/custom_text.dart';
 import 'package:gappy/features/shared/components/custom_text_field.dart';
-import 'package:gappy/features/shared/entry_screen.dart';
 import 'package:gappy/utils/constants.dart';
 import 'package:gappy/utils/routes.dart';
 import 'package:gappy/utils/validation.dart';

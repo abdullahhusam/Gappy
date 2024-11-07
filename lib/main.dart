@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:gappy/features/auth/models/user_model.dart';
-import 'package:gappy/features/auth/views/login_screen.dart';
-import 'package:gappy/features/auth/views/sign_up_screen.dart';
-import 'package:gappy/features/feed/views/home_screen.dart';
 import 'package:gappy/features/shared/colors/colors.dart';
-import 'package:gappy/features/shared/entry_screen.dart';
 import 'package:gappy/utils/routes.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/adapters.dart';
