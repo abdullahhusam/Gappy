@@ -60,7 +60,7 @@ class _EntryState extends State<Entry> {
                 icon: Padding(
                     padding: const EdgeInsets.only(bottom: 6, top: 10),
                     child: Icon(
-                      Icons.feed_outlined,
+                      Icons.person,
                       color:
                           _selectedIndex == 1 ? primaryColor : lightGreyColor,
                     )),
